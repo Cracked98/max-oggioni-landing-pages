@@ -238,6 +238,7 @@ body::after{
 
 /* ---------- LOTES ---------- */
 .lotes-wrap{display:grid;grid-template-columns:1fr;gap:26px}
+.event-date{display:inline-flex;align-items:center;justify-content:center;padding:11px 22px;border:1px solid rgba(245,179,69,.55);border-radius:999px;background:rgba(233,162,59,.1);box-shadow:0 0 28px rgba(233,162,59,.12);font-family:var(--font-mono);font-size:clamp(16px,2vw,22px);font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--amber-2);text-align:center}
 .lotes{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
 .lote{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:24px;position:relative;display:flex;flex-direction:column;gap:6px}
 .lote .tag{font-family:var(--font-mono);font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
@@ -517,12 +518,13 @@ alt=""></noscript>
   </div>
 </section>
 
-<!-- DOBRA 4 — LOTES + CONTADOR -->
+<!-- DOBRA 4 — LOTES + DATA -->
 <section class="section" data-od-id="lotes">
   <div class="container">
     <div class="kicker-row center reveal">
       <span class="eyebrow no-line">Vagas por lote</span>
       <h2 class="section-title center">Quem entra primeiro garante o menor valor</h2>
+      <p class="event-date">Sábado · 29/08 · às 10h</p>
     </div>
     <div class="lotes reveal">
       <div class="lote active"><span class="flag">Lote 1 · aberto agora</span><span class="tag">Primeiro lote</span><div class="price">R$29<span style="font-size:.55em">,90</span></div><p class="desc">Para quem entra primeiro e garante o menor valor.</p></div>
